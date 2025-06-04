@@ -14,7 +14,7 @@ Deposits the specified amount of an ERC-20 token to the L1 StarkGate bridge cont
 
 The deposit function does the following:
 
-* Transfers the funds from the caller's account to the Starknet bridge contract
+* Transfers the funds from the caller's account to the link:https://starkgate.starknet.io/[`Starknet bridge contract`]
 * Emits the `Deposit` event with the sender's address on L1, the recipient's address on L2, and the amount
 
 
